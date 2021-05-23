@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+h1 {
+  font-family: Impact, sans-serif;
+  color: #ce5937;
+}
+
+p {
+  color: black;
+  font-family: "Roboto";
+  margin: 15px;
+}
+
+.mail-contact {
+  color: black !important;
+}
+
+.mail-contact2 {
+  color: black !important;
+  font-size: xx-large;
+}
+.navbar-logo {
+  height: 40px;
+  width: 140px;
+}
+
+.lets-talk-button {
+  color: white !important;
+  background-color: darkblue;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.nav-elements {
+  margin-right: 8px;
+  color: black !important;
+}
+
+.icons {
+  color: lightgreen;
+  margin-right: 8px;
+  height: 35px;
+  border-style: none;
+  margin-top: 10px;
+}
+
+.text-heading {
+  color: black;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.container-1 {
+  padding: 10px;
+  margin: 40px;
+  background-color: white;
+}
+
+.all-elements {
+  background-color: #f3f3f3;
+}
+
+.Heading-ourcom {
+  font-size: 55px;
+}
+
+.Para-ourcom {
+  font-size: 32px;
+}
+
+.container-2 {
+  background-color: #f3f3f3;
+  padding: 10px;
+  margin: 40px;
+}
+
+.container-color-2 {
+  background-color: lightseagreen;
+}
+
+.para-sm {
+  color: white;
+}
+
+.text-heading-1 {
+  color: white;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.service-container {
+  background-color: #f3f3f3;
+}
+
+.footer-container {
+  background-color: #f3f3f3;
+  background-size: cover;
+  padding: 25px;
+}
+
+.para-footer {
+  font-size: 16px;
+}
+
+.img-map {
+  width: 300px;
+  height: 400px;
+}
+
+.input-parameters {
+  height: 50px;
+  width: 500px;
+  border-radius: 50px;
+  margin: 10px;
+}
+
+.footer-fa {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.map {
+  width: 500px;
+  height: 550px;
+  margin-left: 100px;
+}
+.cont {
+  width: 84%;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+.ct-img {
+  width: 100%;
+}
+.mar {
+  margin-top: 135px !important;
+}
+
+.contact-image {
+  z-index: 10;
+  position: relative;
+  width: 100%;
+}
+
+.contact-content {
+  z-index: 20;
+  position: relative;
+  margin-top: -110px;
+  background-color: white;
+}
+.custom-button {
+  width: 500px;
+  border-radius: 50px;
+}
+.text-area {
+  width: 500px;
+  border-radius: 20px;
+}
