@@ -26,7 +26,7 @@ p {
 
 .lets-talk-button {
   color: white !important;
-  background-color: darkblue;
+  background-color: #2c61ad;
   border-radius: 20px;
   padding: 10px;
 }
@@ -160,4 +160,59 @@ p {
 .text-area {
   width: 500px;
   border-radius: 20px;
+}
+.image-aboutus {
+  width: 500px;
+  height: 500px;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-top: 10px;
+}
+.about {
+  width: 84%;
+  margin-left: 106px;
+}
+.para-img-abtus {
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.para-bold {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: bold;
+}
+.container-abtus-digitalcommerce {
+  background-color: #f3f3f3;
+}
+.blue-text {
+  color: blue;
+  font-family: "Roboto";
+}
+ul {
+  list-style-type: disc;
+}
+.image-abo {
+  margin-left: 65px;
+  margin-right: 35px;
+  height: 300px;
+}
+.heading-abtus-3 {
+  color: seagreen;
+}
+.icon-abtus {
+  color: aqua;
+  margin: 5px;
+}
+.span-size {
+  color: black;
+  font-size: 16px;
+}
+.label-text {
+  text-align: left;
+}
+.custom-btn {
+  background-color: aqua;
+  border-radius: 30px;
+  padding: 10px;
+  border-color: aqua;
 }
