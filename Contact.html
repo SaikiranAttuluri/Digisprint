@@ -59,14 +59,18 @@
             <div class="m-5">
                 <a  class="m-5" href="mailto:contactus@digisprint.com"><i class="fa fa-envelope fa-2x "><span class="mail-contact2">contactus@digisprint.com</span></i></a>
             </div> 
-            <div class="mar"> 
+            <form id="myForm"  class="mar"> 
                 <h4> Please fill the form we will get back soon</h4>
-                <input id="nameInput" class="input-parameters" placeholder="NAME" />
-                <input id="emailInput" class="input-parameters" placeholder="EMAIL" />
+                <input id="nameInput" class="input-parameters" placeholder="NAME"/>
+                <p id="nameErrMsg" class="error-message"></p>
+                <input id="emailInput" class="input-parameters" placeholder="EMAIL"/>
+                <p id = "emailErrMsg" class="error-message"></p>
                 <input id="phoneInput" class="input-parameters" placeholder="PHONE"/>
+                <p id = "phoneErrMsg" class="error-message"></p>
                 <textarea id="meaasgeInput" name="textarea" class="text-area" rows="4" cols="68"></textarea>
-                <button id="sendMsgButton" class="btn btn-primary custom-button" onclick="x()">SEND MESSAGE</button>
-            </div>
+                <p id = "msgErrMsg" class="error-message"></p>
+                <button type="button" id="sendMsgButton"  onclick="x()" class="btn btn-primary custom-button">SEND MESSAGE</button>
+            </form>
         </div>    
     <div>
         <h3 class="m-5">We have experience in building world class ecommerce solutions for some of the leading retailers across US, UK, Mexico and South Africa.</h3>

@@ -175,40 +175,52 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="d-flex flex-row">
+            <div  style = "text-decoration: none; " class="d-flex flex-row">
+                <a style="text-decoration: none;" href="./About us.html">
                 <div class="container-2 d-none d-lg-block text-center">
                     <h1 class="text-heading">Major Platforms</h1>
                     <p>Oracle & SAP are very popular among the major retailers. Rich experience in extracting the best out of these platforms for our customer needs.</p>
                 </div>
+            </a>
+            <a style="text-decoration: none;" href="./About us.html">
                 <div class="container-2 d-none d-lg-block text-center">
                     <h1 class="text-heading">Headless & Cloud</h1>
                     <p>Expertise in strategy & implementation of the most popular headless, microservices & cloud transformations happening with retailers.</p>
                 </div>
+            </a>
+            <a style="text-decoration: none;" href="./About us.html">                
                 <div class="container-2 d-none d-lg-block text-center">
                     <h1 class="text-heading">UI/UX Frameworks</h1>
                     <p>Modern Ul platforms and frameworks help customers build enriched end customer experience as well as faster time to production.</p>
                 </div>
+            </a>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row">
             <div class="d-flex flex-row">
+                <a style="text-decoration: none;" href="./About us.html">
                 <div class="container-2 d-none d-lg-block text-center">
                     <h1 class="text-heading">Systems Integrations</h1>
                     <p>Integration with other systems for market place, product information, payment, inventory, etc. is
                         key to commerce solutions</p>
                 </div>
+                </a>
+                <a style="text-decoration: none;" href="./About us.html">
                 <div class="container-2 d-none d-lg-block text-center">
                     <h1 class="text-heading">Peak Sales Preparation</h1>
                     <p>Planning, preparation, performance testing, monitoring and support are very important to successfully handle peak sales for the retailers.</p>
                 </div>
+                </a>
+                <a style="text-decoration: none;" href="./About us.html">
                 <div class="container-2 d-none d-lg-block text-center">
                     <h1 class="text-heading">Core Technologies</h1>
                     <p>Expertise around core technologies are very important to support or enhance any bespoke or
 
                         custom retail systems.</p>
                 </div>
+                </a>
             </div>
         </div>
     </div>
@@ -409,11 +421,17 @@
                 \
             </div>
             <div class="col-5 d-none d-lg-block">
-                <input id="nameInput" class="input-parameters" placeholder="NAME" />
-                <input id="emailInput" class="input-parameters" placeholder="EMAIL" />
+                <form id="myForm"  class="mar"> 
+                <input id="nameInput" class="input-parameters" placeholder="NAME"/>
+                <p id="nameErrMsg" class="error-message"></p>
+                <input id="emailInput" class="input-parameters" placeholder="EMAIL"/>
+                <p id = "emailErrMsg" class="error-message"></p>
                 <input id="phoneInput" class="input-parameters" placeholder="PHONE"/>
-                <textarea id="meaasgeInput" class="text-area" name="textarea" rows="4" cols="68"></textarea>
-                <button id="sendMsgButton" class="btn btn-primary custom-button" onclick="x()">SEND MESSAGE</button>
+                <p id = "phoneErrMsg" class="error-message"></p>
+                <textarea id="meaasgeInput" name="textarea" class="text-area" rows="4" cols="68"></textarea>
+                <p id = "msgErrMsg" class="error-message"></p>
+                <button type="button" id="sendMsgButton"  onclick="x()" class="btn btn-primary custom-button">SEND MESSAGE</button>
+            </form>
             </div>
         </div>
     </footer>

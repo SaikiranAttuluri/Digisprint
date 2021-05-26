@@ -116,6 +116,14 @@ p {
   margin: 10px;
 }
 
+.input-parameters2 {
+  height: 50px;
+  width: 500px;
+  border-radius: 50px;
+  margin: 10px;
+  color: aqua;
+  background-color: brown;
+}
 .footer-fa {
   background-color: black;
   color: white;
@@ -215,6 +223,14 @@ ul {
   border-radius: 30px;
   padding: 10px;
   border-color: aqua;
+}
+.error-message {
+  color: #dc3545;
+  font-family: "Roboto";
+  font-size: 14px;
+  text-align: left;
+  margin: 0;
+  margin-left: 10px;
 }
 .img-services {
   height: auto;
