@@ -169,7 +169,7 @@ p {
   margin-top: 10px;
 }
 .about {
-  width: 84%;
+  width: 85%;
   margin-left: 106px;
 }
 .para-img-abtus {
@@ -218,4 +218,8 @@ ul {
 }
 .img-services {
   height: auto;
+}
+.bottom-img {
+  height: 300px;
+  width: 88%;
 }
