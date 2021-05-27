@@ -1,6 +1,6 @@
 let sendMsgButton = document.getElementById("sendMsgButton");
 let myFormE1 = document.getElementById("myForm");
-
+let inputValues = false;
 
 const x = function(){
 
@@ -65,12 +65,29 @@ const x = function(){
     }else{
         emailErrMsgEl.textContent = "";
     }
+    inputValues = true;
+    if (inputValues == true){
+        y(); 
+ }
 };
+console.log(inputValues);
 
 const display = function(){
     let contactus=document.getElementById("sectionContactUs");
     let content = document.getElementById("content")
     content.textContent = contactus;
+}
+
+function y(){
+    var myWindow = window.open("", "myWindow", "width=400,height=400");
+    myWindow.document.write("<h1>Name Entered: </h1>"+nameInput.value);
+    myWindow.document.write("<h1>Email Entered: </h1>"+emailInput.value);
+    myWindow.document.write("<h1>Phone Number Entered: </h1>"+phoneInput.value);
+    myWindow.document.write("<h1>Message Entered: </h1>"+meaasgeInput.value);
+    nameInput.value = "";
+    emailInput.value = "";
+    meaasgeInput.value = "";
+    phoneInput.value = "";
 }
 
 // myFormEl.addEventListener("submit", function(event){
